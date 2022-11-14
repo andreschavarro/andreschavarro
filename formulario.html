@@ -16,6 +16,7 @@
 
 
 
+  <div class="contenedor">
     <div class="container bg-white rounded shadow p-4 col-xl-4 col-lg-6">
 
         <h2 class="w-100 text-center mb-4">Registre los usuarios</h2>
@@ -46,37 +47,82 @@
 
             <div class="mb-3">
                 <label for="int_edad" class="form-label">Tipo de Jornada</label>
-                <input type="text" class="form-control" id="int_jornada" name="int_jornada" placeholder="Mañana, Tarde o Noche" required="">
+                <!-- <input type="text" class="form-control" id="int_jornada" name="int_jornada" placeholder="Mañana, Tarde o Noche" required=""> --> 
+                <input list="jornada" class="form-control" required >
+                <datalist id="jornada">
+                    <option value="Mañana"></option>
+                    <option value="Tarde"></option>
+                    <option value="Noche"></option>
+                </datalist>
             </div>
 
             <div class="mb-3">
                 <label for="int_edad" class="form-label">Estudia o Trabaja</label>
-                <input type="text" class="form-control" id="int_estudia" name="int_jornada" placeholder="Estudia o Trabaja" required="">
+                <!-- <input type="text" class="form-control" id="int_estudia" name="int_jornada" placeholder="Estudia o Trabaja" required=""> -->
+                <input list="estudia/trabaja" class="form-control" required >
+                <datalist id="estudia/trabaja">
+                    <option value="Solo estudia"></option>
+                    <option value="Estudia y trabaja"></option>                  
+                </datalist>
             </div>
 
             <div class="mb-3">
                 <label for="txt_usuario" class="form-label">Tiene hijos</label>
-                <input type="text" class="form-control" id="txt_hijos" name="txt_hijos" placeholder="si o no" required="">
+                <!-- <input type="text" class="form-control" id="txt_hijos" name="txt_hijos" placeholder="si o no" required=""> -->
+                <input list="hijos" class="form-control" required >
+                <datalist id="hijos">
+                    <option value="Si"></option>
+                    <option value="No"></option>                  
+                </datalist>
             </div>
 
             <div class="mb-3">
                 <label for="txt_usuario" class="form-label">Estado Civil</label>
-                <input type="text" class="form-control" id="txt_civil" name="txt_civil" placeholder="" required="">
+                <!-- <input type="text" class="form-control" id="txt_civil" name="txt_civil" placeholder="" required=""> -->
+                <input list="estadocivil" class="form-control" required >
+                <datalist id="estadocivil">
+                    <option value="Soltero"></option>
+                    <option value="Casado"></option> 
+                    <option value="Union libre"></option>
+                    <option value="Viudo"></option>
+                    <option value="Separado"></option>                 
+                </datalist>
             </div>
 
             <div class="mb-3">
                 <label for="txt_usuario" class="form-label">Sexo</label>
-                <input type="text" class="form-control" id="txt_sexo" name="txt_sexo" placeholder="Hombre o Mujer" required="">
+                <!-- <input type="text" class="form-control" id="txt_sexo" name="txt_sexo" placeholder="Hombre o Mujer" required=""> -->
+                <input list="sexo" class="form-control" required >
+                <datalist id="sexo">
+                    <option value="Hombre"></option>
+                    <option value="Mujer"></option>  
+                    <option value="Intersexual"></option> 
+                    <option value="Intersexual con características dominantes masculinas"></option>
+                    <option value="Intersexual con características dominantes femeninas"></option>               
+                </datalist>
             </div>
 
             <div class="mb-3">
                 <label for="txt_usuario" class="form-label">Que medio de tranporte utiliza para llegar al Cesde</label>
-                <input type="text" class="form-control" id="txt_trasnporte" name="txt_trasnporte" placeholder="" required="">
+                <!-- <input type="text" class="form-control" id="txt_trasnporte" name="txt_trasnporte" placeholder="" required=""> -->
+                <input list="transporte" class="form-control" required >
+                <datalist id="transporte">
+                    <option value="caminando"></option>
+                    <option value="Moto propia"></option>  
+                    <option value="Carro propio"></option> 
+                    <option value="Sistema metro"></option>
+                    <option value="Taxi/uber"></option>               
+                </datalist>
             </div>
 
             <div class="mb-3">
                 <label for="txt_usuario" class="form-label">Genero</label>
-                <input type="text" class="form-control" id="txt_usuario" name="txt_usuario" placeholder="Ingrese el usuario" required="">
+                <!-- <input type="text" class="form-control" id="txt_usuario" name="txt_usuario" placeholder="Ingrese el usuario" required=""> -->
+                <input list="genero" class="form-control" required >
+                <datalist id="genero">
+                    <option value="Heterosexual"></option>
+                    <option value= "LGTBIQ+"></option>               
+                </datalist>
             </div>
 
 
@@ -103,6 +149,7 @@
         </form>
 
     </div>
+  </div>
     <div class="texto">
         <p>label
             Data sources and methodological differences
