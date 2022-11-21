@@ -12,159 +12,94 @@
 
 </head>
 
-<body class="bg-dark d-flex justify-content-center align-items-center" style="height: 100vh">
+<body>
 
 
 
-  <div class="contenedor">
-    <div class="container bg-white rounded shadow p-4 col-xl-4 col-lg-6">
 
-        <h2 class="w-100 text-center mb-4">Registre los usuarios</h2>
-
-        <hr style="color: #9999" />
-
-        <form id="formulario" method="POST">
-
-            <div class="mb-3">
-                <label for="txt_nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="txt_nombre" name="txt_nombre" placeholder="Ingrese el nombre" required="">
-            </div>
-
-            <div class="mb-3">
-                <label for="int_edad" class="form-label">Edad</label>
-                <input type="text" class="form-control" id="int_edad" name="int_edad" placeholder="Ingrese la edad" required="">
-            </div>
-
-            <div class="mb-3">
-                <label for="txt_nombre" class="form-label">Correo</label>
-                <input type="text" class="form-control" id="txt_correo" name="txt_correo" placeholder="Ingrese el Correo" required="">
-            </div>
-
-            <div class="mb-3">
-                <label for="int_edad" class="form-label">Telefono</label>
-                <input type="text" class="form-control" id="int_Telefono" name="int_Telefono" placeholder="Ingrese Su Telefono" required="">
-            </div>
-
-            <div class="mb-3">
-                <label for="int_edad" class="form-label">Tipo de Jornada</label>
-                <!-- <input type="text" class="form-control" id="int_jornada" name="int_jornada" placeholder="Mañana, Tarde o Noche" required=""> --> 
-                <input list="jornada" class="form-control" required >
-                <datalist id="jornada">
-                    <option value="Mañana"></option>
-                    <option value="Tarde"></option>
-                    <option value="Noche"></option>
-                </datalist>
-            </div>
-
-            <div class="mb-3">
-                <label for="int_edad" class="form-label">Estudia o Trabaja</label>
-                <!-- <input type="text" class="form-control" id="int_estudia" name="int_jornada" placeholder="Estudia o Trabaja" required=""> -->
-                <input list="estudia/trabaja" class="form-control" required >
-                <datalist id="estudia/trabaja">
-                    <option value="Solo estudia"></option>
-                    <option value="Estudia y trabaja"></option>                  
-                </datalist>
-            </div>
-
-            <div class="mb-3">
-                <label for="txt_usuario" class="form-label">Tiene hijos</label>
-                <!-- <input type="text" class="form-control" id="txt_hijos" name="txt_hijos" placeholder="si o no" required=""> -->
-                <input list="hijos" class="form-control" required >
-                <datalist id="hijos">
-                    <option value="Si"></option>
-                    <option value="No"></option>                  
-                </datalist>
-            </div>
-
-            <div class="mb-3">
-                <label for="txt_usuario" class="form-label">Estado Civil</label>
-                <!-- <input type="text" class="form-control" id="txt_civil" name="txt_civil" placeholder="" required=""> -->
-                <input list="estadocivil" class="form-control" required >
-                <datalist id="estadocivil">
-                    <option value="Soltero"></option>
-                    <option value="Casado"></option> 
-                    <option value="Union libre"></option>
-                    <option value="Viudo"></option>
-                    <option value="Separado"></option>                 
-                </datalist>
-            </div>
-
-            <div class="mb-3">
-                <label for="txt_usuario" class="form-label">Sexo</label>
-                <!-- <input type="text" class="form-control" id="txt_sexo" name="txt_sexo" placeholder="Hombre o Mujer" required=""> -->
-                <input list="sexo" class="form-control" required >
-                <datalist id="sexo">
-                    <option value="Hombre"></option>
-                    <option value="Mujer"></option>  
-                    <option value="Intersexual"></option> 
-                    <option value="Intersexual con características dominantes masculinas"></option>
-                    <option value="Intersexual con características dominantes femeninas"></option>               
-                </datalist>
-            </div>
-
-            <div class="mb-3">
-                <label for="txt_usuario" class="form-label">Que medio de tranporte utiliza para llegar al Cesde</label>
-                <!-- <input type="text" class="form-control" id="txt_trasnporte" name="txt_trasnporte" placeholder="" required=""> -->
-                <input list="transporte" class="form-control" required >
-                <datalist id="transporte">
-                    <option value="caminando"></option>
-                    <option value="Moto propia"></option>  
-                    <option value="Carro propio"></option> 
-                    <option value="Sistema metro"></option>
-                    <option value="Taxi/uber"></option>               
-                </datalist>
-            </div>
-
-            <div class="mb-3">
-                <label for="txt_usuario" class="form-label">Genero</label>
-                <!-- <input type="text" class="form-control" id="txt_usuario" name="txt_usuario" placeholder="Ingrese el usuario" required=""> -->
-                <input list="genero" class="form-control" required >
-                <datalist id="genero">
-                    <option value="Heterosexual"></option>
-                    <option value= "LGTBIQ+"></option>               
-                </datalist>
-            </div>
-
-
-
-            <div class="mb-3">
-                <label for="int_edad" class="form-label">vivienda</label>
-                <input type="text" class="form-control" id="int_vivienda" name="txt_vivienda" placeholder="Ingrese donde vive" required="">
-            </div>
-
-
-
-            <div class="mb-3">
-                <label for="int_edad" class="form-label">vivienda</label>
-                <input type="text" class="form-control" id="int_vivienda" name="txt_vivienda" placeholder="Ingrese donde vive" required="">
-            </div>
-
-            <div class="mb-3">
-                <label for="int_edad" class="form-label">status</label>
-                <input type="text" class="form-control" id="int_condicion" name="txt_condicion" placeholder="Trabajas o estudias" required="">
-            </div>
-
-            <button type="submit" class="btn btn-primary w-100 text-uppercase fw-bold">Insertar</button>
-
-        </form>
-
+      <div class="container-all">
+       
+        <h1 class="title">Necesitamos de tu ayuda para hacernos una idea clara de la situación actual de los estudiantes del CESDE, para esto te vamos a hacer algunas preguntas. Tu información va a ser privada sin acceso a terceros, si quieres saber más de nuestra política de datos da click aquí.</h1>
+        <div class="contenedor">
+            <form >
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+    
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+    
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+    
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+    
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+    
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+    
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+    
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        
+        
     </div>
-  </div>
+
     <div class="texto">
-        <p>label
-            Data sources and methodological differences
-            We source the data for the Global Health Explorer from three main sources: 
-            
-            World Health Organization’s Global Health Estimates
-            World Health Organization’s Global Health Observatory
-            Institute of Health Metrics and Evaluation’s Global Burden of Disease Study
-            Global Health Estimates (WHO GHE)
-            The Global Health Estimates are primarily calculated using cause-of-death statistics that are reported to the WHO by individual countries. 
-            
-        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed etLorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed etLorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed etLorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed et.</p>
     </div>
+
 
     <script src="app.js"></script>
 
 </body>
 </html>
+
+
+

@@ -27,6 +27,14 @@ body{
     margin: auto;
 }
 
+.pipe{
+    width: 10px;
+}
+
+.miguel{
+    width: 20px;
+}
+
 header{
     height: 100vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) ), url(../img/pexels-aleksandar-pasaric-325185.jpg);
