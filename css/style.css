@@ -28,11 +28,12 @@ body{
 }
 
 .pipe{
-    width: 10px;
+    width: 19px;
 }
 
 .miguel{
-    width: 20px;
+    width: 21px;
+    font-size: 20px;
 }
 
 header{
@@ -73,7 +74,7 @@ header{
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, #8991b5 0%, #4ba25c 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -162,9 +163,9 @@ header{
 .subtitulo{
     text-align: center;
     font-weight: 300;
-    color: rgb(65, 65, 170);
+    color: rgb(15, 83, 60);
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 45px;
     transition: all 300ms;  
     text-shadow: 5px 5px 5px rgb(65, 65, 170); 
 }
@@ -239,7 +240,7 @@ header{
     width: 200px;
     display: block;
     margin-bottom: 80px;
-    box-shadow: 0px 10px 20px rgb(88, 53, 175);
+    box-shadow: 0px 10px 20px rgb(43, 103, 84);
     cursor: pointer;
 }
 
@@ -316,8 +317,9 @@ header{
     font-weight: 400;
 }
 
+
 footer{
-    background: #9f8ad0;
+    background: rgba(16, 133, 110, 0.582);
     padding-bottom: 0.1px;
 }
 
@@ -390,6 +392,7 @@ footer{
     background: #fff;
     margin: bottom 60px;
 }
+
 
 @media screen and (max-width:800px){
     .menu-navegacion{
