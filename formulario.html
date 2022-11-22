@@ -19,82 +19,227 @@
 
       <div class="container-all">
        
-        <h1 class="title">Necesitamos de tu ayuda para hacernos una idea clara de la situación actual de los estudiantes del CESDE, para esto te vamos a hacer algunas preguntas. Tu información va a ser privada sin acceso a terceros, si quieres saber más de nuestra política de datos da click aquí.</h1>
+        <h1 class="title">Necesitamos de tu ayuda para hacernos una idea clara de la situación actual de los estudiantes del CESDE, para esto te vamos a hacer algunas preguntas. Tu información va a ser privada sin acceso a terceros, si quieres saber más de nuestra política de datos da <a href="./politicas.html" class="click">click aquí.</a> </h1>
         <div class="contenedor">
             <form >
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..">
           
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+              <label for="correo">Correo electronico</label>
+              <input type="text" id="correo" name="correo" placeholder="Tucorreo@gmail.com">
+
+              <label for="telefono">Telefono</label>
+              <input type="text" id="telefono" name="telefono" placeholder="Numero celular">
+
+              <label for="jornada">Jornada estudiantil</label>
+              <select id="jornada" name="jornada">
+                <option value="nada"></option>
+                <option value="mañana">Jornada mañana</option>
+                <option value="mediodia">Jornada rondando el medio dia</option>
+                <option value="tarde">Jornada tarde</option>
+                <option value="noche">Jornada noche</option>
+              </select>
+
+              <label for="estadoactual">Estudia o trabaja</label>
+              <select id="estadoactual" name="estadoactual">
+                <option value="nada"></option>
+                <option value="solo estudia">Solo estudia</option>
+                <option value="estudia y trabaja">Estudia y trabaja</option>
+              </select>
+       
+              <label for="estadocivil">Estado civil</label>
+              <select id="estadocivil" name="estadocivil">
+                <option value="nada"></option>
+                <option value="soltero">Soltero</option>
+                <option value="unionlibre">Union libre</option>  
+                <option value="casado">Casado</option> 
+                <option value="divorciado">Divorciado</option> 
+                <option value="viudo">Viudo</option>            
+              </select>
+
+              <label for="hijos">Tiene hijos</label>
+              <select id="hijos" name="hijos">
+                <option value="nada"></option>
+                <option value="si">Si</option>
+                <option value="no">No</option>            
               </select>
     
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+              <label for="sexo">Sexo</label>
+              <select id="sexo" name="sexo">
+                <option value="nada"></option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>  
+                <option value="intersexual">Intersexual</option>             
+              </select>
+
+              <label for="genero">Genero</label>
+              <select id="genero" name="genero">
+                <option value="nada"></option>
+                <option value="heterosexual">Heterosexual</option>
+                <option value="homosexual">Homosexual</option>  
+                <option value="intersexual">Intersexual</option>  
+                <option value="bisexual">Bisexual</option>    
+                <option value="otro">Otro</option>             
+              </select>
+
+              <label for="tranporte">Medio de transporte</label>
+              <select id="tranporte" name="tranporte">
+                <option value="nada"></option>
+                <option value="caminando">Caminando</option>
+                <option value="vehiculo">Vehiculo propio</option>  
+                <option value="sistemametro">Sistema metro</option>  
+                <option value="taxi/uber">Taxi/uber o semejantes</option>               
               </select>
     
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+              <label for="barrio">Barrio o sector</label>
+              <input type="text" id="barrio" name="barrio" placeholder="Barrio donde vive..">
+    
+              <label for="tiempo_del_trayecto">Duracion del trayecto desde casa al CESDE</label>
+              <select id="tiempo_del_trayecto" name="tiempo_del_trayecto">
+                <option value="nada"></option>
+                <option value="15-29">De 15 a 29 minutos</option>
+                <option value="30-59">De 30 a 59 minutos</option>  
+                <option value="60-89">De una hora a hora y media</option>  
+                <option value="mas">Más de hora y media </option>               
               </select>
     
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+              <label for="hora_de_dormir">Hora habitual de ir a dormir</label>
+              <select id="hora_de_dormir" name="hora_de_dormir">
+                <option value="nada"></option>
+                <option value="9omenos">9:00 pm o antes </option>
+                <option value="10-11">De 10:00 pm a 11:00 pm</option>  
+                <option value="11-12">De 11:00 pm a 12:00 pm</option>   
+                <option value="12-1">De 12:00 am a 1:00 am</option> 
+                <option value="1-3">De 1:00 am a 3:00 am</option> 
+                <option value="otro">Otro</option>                   
               </select>
-    
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+
+              <label for="hora_de_despertarse">Hora habitual de despertar</label>
+              <select id="hora_de_despertarse" name="hora_de_despertarse">
+                <option value="nada"></option>
+                <option value="3-4">De 3:00 am a 4:00 am </option>
+                <option value="5-6"> De 5:00 am a 6:00 am</option>  
+                <option value="7-8">De 7:00 am a 8:00 am</option>   
+                <option value="mas de las 9">Más de las 9:00 am</option> 
+                <option value="otro">Otro</option>                
               </select>
-    
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+
+              <label for="sueño">Promedio de horas de sueño</label>
+              <select id="sueño" name="sueño">
+                <option value="nada"></option>
+                <option value="5">5 o menos </option>
+                <option value="6">De 6 a 7 horas</option>  
+                <option value="7">De 7 a 8 horas</option>  
+                <option value="8">Más de 8 horas</option>              
               </select>
-    
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+
+              <label for="estudio_adicional">Promedio de horas diarias adicionales dedicadas a estudiar programacion</label>
+              <select id="estudio_adicional" name="estudio_adicional">
+                <option value="nada"></option>
+                <option value="nada">Ninguna</option>
+                <option value="1">Una hora</option>  
+                <option value="2">Dos horas</option>  
+                <option value="3">Tres horas</option>    
+                <option value="4">Cuatro o más horas</option>              
+
               </select>
-    
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+
+              <label for="ingles">Promedio de horas diarias dedicadas a estudiar ingles</label>
+              <select id="ingles" name="ingles">
+                <option value="nada"></option>
+                <option value="nada">Ninguna</option>
+                <option value="1">Una hora</option>  
+                <option value="2">Dos horas</option>  
+                <option value="3">Tres horas</option>    
+                <option value="4">Cuatro o más horas</option>              
               </select>
-            
+
+              <label for="asignatura">Asignatura preferida primer semestre</label>
+              <input type="text" id="asignatura" name="asignatura" placeholder="Introduccion/bases de datos/logica..">
+
+              <label for="asignatura2">Asignatura preferida segundo semestre</label>
+              <input type="text" id="asignatura2" name="asignatura2" placeholder="web1/lenguajes/Aplicaciones..">
+
+              <label for="especializacion">Rama general por la que le gustaria especializarse</label>
+              <select id="especializacion" name="especializacion">
+                <option value="nada"></option>
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>  
+                <option value="full stack">Full stack</option>  
+                <option value="data science">Data science</option>    
+                <option value="aplicaciones">Desarrollador de aplicaciones</option>              
+              </select>
+
+              <label for="emprendimiento">En que plazo de tiempo considera emprender en tecnologia</label>
+              <select id="emprendimiento" name="emprendimiento">
+                <option value="nada"></option>
+                <option value="no lo ha pensado nunca">No lo ha pensado nunca</option>
+                <option value="nunca, no me interesa">Nunca, no me interesa</option>  
+                <option value="ahora mismo">Ahora mismo</option>  
+                <option value="de 1 a 5 años">De 1 a 5 años</option>    
+                <option value="mas de 5 años">Más de 5 años</option>              
+              </select>
+
+              <label for="catedra">Que tanta importancia le da a la catedra ser emprendedor del CESDE</label>
+              <select id="catedra" name="catedra">
+                <option value="nada"></option>
+                <option value="nula importancia">Nula importancia</option>
+                <option value="muy poca importancia">Muy poca importancia</option>  
+                <option value="es importante">Es importante</option>  
+                <option value="Es muy importante">Es muy importante</option>                 
+              </select>
+
+              <label for="cursos">Cuantos cursos complementarios de los 15 que el CESDE tiene disponibles a finalizado</label>
+              <select id="cursos" name="cursos">
+                <option value="nada"></option>
+                <option value="ninguno">Ninguno</option>
+                <option value="solo catedra ser emprendedor">Solo catedra ser emprendedor</option>  
+                <option value="Dos">Dos</option>  
+                <option value="De 3 a 4">De 3 a 4</option>
+                <option value="De 5 a 10">De 5 a 10</option> 
+                <option value="Más de 10">Más de 10</option>                 
+              </select>
+
+              <label for="relaciones">Considera que el CESDE es un buen lugar para conocer personas(Networking)</label>
+              <select id="relaciones" name="relaciones">
+                <option value="nada"></option>
+                <option value="si">Si</option>
+                <option value="no">No</option>  
+                <option value="mas o menos">Más o menos</option>  
+                <option value="depende de cada quienn">Depende de cada quien</option>                
+              </select>
+
+              <label for="amigos">Ha hecho amigos en el CESDE con los que considera trabajar en un proyecto personal o idea de negocio</label>
+              <select id="amigos" name="amigos">
+                <option value="nada"></option>
+                <option value="si">Si</option>
+                <option value="no">No</option>                 
+              </select>
+
+              <label for="profesores">De los profesores que le han dado clase que cantidad de ellos le parecen muy buenos</label>
+              <select id="profesores" name="profesores">
+                <option value="nada"></option>
+                <option value="si">Ninguno</option>
+                <option value="muy pocos">Muy pocos</option>          
+                <option value="la mitad">La mitad</option>
+                <option value="la mayoria">La mayoria</option>  
+                <option value="todos">Todos</option>     
+              </select>
+
+              <label for="calidad">Esta satisfecho con la calidad educativa del CESDE</label>
+              <select id="calidad" name="calidad">
+                <option value="nada"></option>
+                <option value="Poco satisfecho">Poco satisfecho</option>
+                <option value="mas o menos">Más o menos </option>          
+                <option value="muy satisfecho">Muy satisfecho</option> 
+              </select>
+
               <input type="submit" value="Submit">
             </form>
           </div>
         
         
     </div>
-
-    <div class="texto">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed etLorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed etLorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed etLorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate porro omnis esse, ducimus iure distinctio, nihil, consequuntur neque natus nisi dolores! Necessitatibus explicabo corrupti eius officiis cum sed et.</p>
-    </div>
-
 
     <script src="app.js"></script>
 

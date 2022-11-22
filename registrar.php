@@ -6,6 +6,7 @@ $telefono = isset($_POST['telefono']) ? $_POST['telefono'] : '';
 $jornada = isset($_POST['jornada']) ? $_POST['jornada'] : '';
 $estadoactual = isset($_POST['estadoactual']) ? $_POST['estadoactual'] : '';
 $estadocivil = isset($_POST['estadocivil']) ? $_POST['estadocivil'] : '';
+// hacer si tiene hijos
 $sexo = isset($_POST['sexo']) ? $_POST['sexo'] : '';
 $genero = isset($_POST['genero']) ? $_POST['genero'] : '';
 $tranporte = isset($_POST['tranporte']) ? $_POST['tranporte'] : '';
@@ -17,6 +18,7 @@ $sueño  = isset($_POST['sueño ']) ? $_POST['sueño '] : '';
 $estudio_adicional = isset($_POST['estudio_adicional']) ? $_POST['estudio_adicional'] : '';
 $ingles = isset($_POST['ingles']) ? $_POST['ingles'] : '';
 $asignatura  = isset($_POST['asignatura ']) ? $_POST['asignatura '] : '';
+// hacer asignatura segunda materia
 $especializacion = isset($_POST['especializacion']) ? $_POST['especializacion'] : '';
 $emprendimiento = isset($_POST['emprendimiento']) ? $_POST['emprendimiento'] : '';
 $catedra = isset($_POST['catedra']) ? $_POST['catedra'] : '';
@@ -24,6 +26,7 @@ $cursos = isset($_POST['cursos']) ? $_POST['cursos'] : '';
 $relaciones  = isset($_POST['relaciones ']) ? $_POST['relaciones '] : '';
 $amigos  = isset($_POST['amigos']) ? $_POST['amigos'] : '';
 $profesores  = isset($_POST['profesores']) ? $_POST['profesores'] : '';
+// hacer la de la calidad educativa del cesde
 
 
 try {
