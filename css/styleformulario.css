@@ -92,3 +92,8 @@ input[type=text], select {
     margin-left: 780px;
     bottom: 600px;
 }
+
+.click{
+    text-decoration: none;
+    color: black;
+}

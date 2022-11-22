@@ -1,0 +1,181 @@
+.titulo{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.copy{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+footer{
+    background: #9f8ad0;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: px;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500; 
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+     background: #fff;
+     color: #764ba2;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;   
+}
+
+.face{
+    list-style-type: none;
+}
+.twitter{
+    list-style-type: none;
+}
+.insta{
+    list-style-type: none;
+}
+
+.line{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 50px;
+    background: #fff;
+    margin: bottom 60px;
+}
+
+@media screen and (max-width:800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .pipe-servicio{
+       width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .agregar-imagen{
+        width: 80%;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+
+    .cont-experts{
+        width: 80%;
+    }
+
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media i{
+        margin-left: 0;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    @media screen and (max-width:500px) {
+        .menu-navegacion{
+            width: 65vw;
+        }
+
+        .hamburguer{
+            top: 20px;
+            right: 20px;
+        }
+
+        .titulo{
+            font-size: 30px;
+        }
+
+        .subtitulo{
+            font-size: 30px;
+        }
+        
+        .img-galeria{
+            width: 95%;
+        }
+
+        .agregar-imagen{
+            width: 95%;
+        }
+
+        .social-media{
+            width: 100%;
+        }
+
+        .contact-us{
+            width: 90%;
+        }
+        
+    }
+    
+}
