@@ -1,0 +1,10 @@
+html
+    head 
+    link(rel="stylesSheet", href="css/allStyles.css")
+        title #{titulo}   
+    body 
+        h2(class="container") #{sudtitulo}
+        h3(id="mystyle") manejando estilos es pug
+        ul 
+            for car in cars 
+                li #{car.plate}
